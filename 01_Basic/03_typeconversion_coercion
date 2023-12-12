@@ -48,3 +48,11 @@ console.log(n);  // 10 as number
 console.log( 2+3+4+'5'); //8 + '5' --> 95 as string
 console.log('10'- '4' - '3' - 2 + '5'); // 1 + '5' --> 15 as string
 
+
+ //converted to number if + is before variable or value;
+
+ console.log(+true); // true to number is 1
+ let isloggedin = true;
+ console.log(+isloggedin);  //1 as number
+
+ console.log(+""); // empty string to number is 0;
