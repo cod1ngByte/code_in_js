@@ -16,7 +16,7 @@ console.log(Boolean("0")); //true;
 
 // null only equals undefiend ie. null == undefined -- > true
 
-//null and undefined convert to 0 and NaN for Math and comparison operation.
+//null and undefined convert to 0 and NaN for Math and comparison operation, becoz of Number conversion.
 
 console.log(null > 0); // 0 > 0 -->false
 console.log(null == 0); // null only equals undefined other are false.
