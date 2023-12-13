@@ -6,7 +6,7 @@
    store undefined value.
 --> funcion parameter will be defined once the function is call and block of function is executed.
 --> we can pass any value(primitive and non-primitive type) in function.
-
+--> return keyword in function automatically exit the function.
 */
 function sayMyName() {
   console.log("c");
@@ -83,3 +83,8 @@ function calculateCartPrice(...price) {
   console.log(price); // it will print array.
 }
 calculateCartPrice(10, 20, 30);
+
+/*
+console.log() is a function in javascirpt which prints the information in console.
+
+*/
