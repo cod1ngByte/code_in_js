@@ -21,7 +21,7 @@ function sayMyName() {
   console.log("e");
 }
 
-sayMyName(); // function calling (functin block is executed).
+sayMyName(); // function calling (function block is executed).
 // console.log(sayMyName()); function block is executed and function returned undefined.
 // console.log(sayMyName); function reference is passed so it will print functin defination , it will not execute the function
 

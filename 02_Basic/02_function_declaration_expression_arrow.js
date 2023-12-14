@@ -1,5 +1,5 @@
 /*
-function declaration are hoisted means the enitere function declaratin is move at the top
+function declaration are hoisted means the entire function declaratin is move at the top
    of the CONTAINING SCOPE, allowing you to call function before it is actually declared in the code.
 
 function expression involve creating a function and assigning to a variable(since we know
@@ -16,15 +16,6 @@ var operation = (Math.random() > 0.5) ?
 
 console.log(operation(2, 3)); // Result can be addition or multiplication
 ----------------------------------------------------------------------------------
-
-
-function executeOperation(a, b, operation) {
-  return operation(a, b);
-}
-
-var addition = function(a, b) { return a + b; };
-
-console.log(executeOperation(5, 3, addition)); // Outputs 8
 
 
 function executeOperation(a, b, operation) {
