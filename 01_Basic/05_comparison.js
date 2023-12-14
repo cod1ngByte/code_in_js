@@ -1,14 +1,14 @@
 //comparing two value of same type there is no problem
 //but comparing two diff type of value result are little weird so better to convert and compare or
 //know the result of two diff type of value
-
+///--> converted to number-----------------------------------------
 console.log("2" > 3); // 2 > 3 --> false
 console.log("2" == 2); // 2 == 2 --> true
 console.log("02" == 2); // 2 == 2 --> true
 
 console.log(0 == false); // false == false -->true;
 console.log("" == false); //    false == false -> true;
-
+// ------------------------------------------------------------------
 console.log(Boolean(0)); // false
 console.log(Boolean("0")); //true;
 
