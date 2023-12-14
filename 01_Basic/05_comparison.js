@@ -27,4 +27,7 @@ console.log(undefined == 0); //undefined only equals null other are false.
 console.log(undefined >= 0); // NaN >= 0 --> false;
 
 console.log(null == undefined); //true
-console.log(null === undefined); // false
+console.log(null === undefined); // false becoz type of null is object and type of undefined is undefined.
+
+console.log(NaN == NaN); //false
+console.log(NaN === NaN); //false, loose equality is false so no chance strict equality to be true.
