@@ -57,3 +57,4 @@ console.log(
 
 console.log(jsUser.greeting); // it print reference of function
 console.log(jsUser.greeting()); // now method of object is executed and method return undefined.
+jsUser["greeting"](); //method callig using bracket notation

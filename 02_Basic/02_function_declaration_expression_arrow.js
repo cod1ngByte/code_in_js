@@ -7,6 +7,8 @@ function expression involve creating a function and assigning to a variable(sinc
 
 function expression often used when we need to create function dynamically.
 
+we can not use function declartion inside object as property only function exprsn can be used inside object.
+
 
 eg.
 ---------------------------------------------------------------------------------
