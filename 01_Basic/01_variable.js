@@ -32,7 +32,7 @@ let accountEmail = "abc@sc.com";
 var accountPass = "dfjs324";
 accountCity = "Bokaro";
 
-//will assign new value to variable.
+//-->will assign new value to variable.
 
 // accountId = 234;
 // console.log(accountId); --> error assignment to constant not possible
@@ -44,5 +44,5 @@ console.log(accountEmail);
 console.log(accountPass);
 console.log(accountCity);
 
-//we can also display in tabular format
+//-->we can also display in tabular format
 console.table([accountId, accountEmail, accountPass, accountCity]);
