@@ -28,10 +28,11 @@ In js we have   1. global scope
 -------------------------------------------------------------------------------------------------------
 /*
 
--->Block scope :        variable accessed only within block
-                        however this only happen to only let and const
-                        variable declared using var within block end up to the closest function scope.
-                        function are block scope in strict mode.                        
+-->Block scope :        --> variable accessed only within block
+                        --> however this only happen to only let and const
+                        --> variable declared using var within block end up to the closest function scope.
+                        --> if function are defined within block then it end up in block scope if used in strict mode, 
+                            else end up to the closest function.                    
 
 
     if(accEmail && accPass){
