@@ -8,15 +8,15 @@
 */
 
 const jsUser = {
-  firstName: "cod1ng",
-  lastName: "Byte",
-  age: 18,
-  location: "Bokaro",
-  email: "abc@xyz.com",
-  lastLoginDay: ["mon", "tues"],
-  greeting: function () {
-    console.log("hello");
-  },
+    firstName: "cod1ng",
+    lastName: "Byte",
+    age: 18,
+    location: "Bokaro",
+    email: "abc@xyz.com",
+    lastLoginDay: ["mon", "tues"],
+    greeting: function () {
+        console.log("hello");
+    },
 };
 
 console.log(jsUser);
@@ -31,7 +31,7 @@ const nameKey = "Name";
 console.log(jsUser["first" + nameKey]);
 console.log(jsUser[`last${nameKey}`]);
 
-//--> we can use expression in dot notaion
+//--> we can not use expression in dot notaion
 // console.log(jsUser.'first'+nameKey);//error unexpected string
 
 //--> if we try to access property of object which is not defined it will return undefined.
@@ -46,7 +46,7 @@ jsUser["friends"] = ["a", "b", "c"];
 console.log(jsUser);
 
 console.log(
-  `${jsUser.firstName}${jsUser.lastName} has ${jsUser.friends.length} friends and his best friends is ${jsUser.friends[1]}`
+    `${jsUser.firstName}${jsUser.lastName} has ${jsUser.friends.length} friends and his best friends is ${jsUser.friends[1]}`
 );
 
 //-- dot has more precedence than [], so first dot got access than [] in jsUser.friends[1]
