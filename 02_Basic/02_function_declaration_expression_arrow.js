@@ -9,7 +9,7 @@ function expression often used when we need to create function dynamically.
 
 we can not use function declartion inside object as property only function exprsn can be used inside object.
 
-
+will be learning hoisting and tdz later in js concept section.
 eg.
 ---------------------------------------------------------------------------------
 var operation = (Math.random() > 0.5) ? 
@@ -51,8 +51,8 @@ greetingFunction(); // Outputs either "Welcome back!" or "Please log in."
 // const age1 = calcAge1(1999); --> 31 (hoisting in function declaration)
 
 function calcAge1(birthYear) {
-  const age = 2030 - birthYear;
-  return age;
+    const age = 2030 - birthYear;
+    return age;
 }
 const age1 = calcAge1(1999);
 console.log(age1);
@@ -61,8 +61,8 @@ console.log(age1);
 // const age2 = age2(1999); // error (no hoisting in function expression)
 
 const calcAge2 = function (birthYear) {
-  const age = 2030 - birthYear;
-  return age;
+    const age = 2030 - birthYear;
+    return age;
 };
 
 const age2 = calcAge2(1999);
@@ -71,8 +71,8 @@ console.log(age2);
 // ---->arrow function -- simplied version of function expression
 
 const calcAge3 = (birthYear) => {
-  const age = 2030 - birthYear;
-  return age;
+    const age = 2030 - birthYear;
+    return age;
 };
 
 const age3 = calcAge3(1999);
@@ -81,8 +81,8 @@ console.log(age3);
 // --->explicit return in arrow function
 
 const addTwo = (num1, num2) => {
-  const result = num1 + num2;
-  return result;
+    const result = num1 + num2;
+    return result;
 };
 console.log(addTwo(40, 20));
 
