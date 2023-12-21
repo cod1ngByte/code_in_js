@@ -1,5 +1,5 @@
 /*
-     hoisting --> variable are move to top of their scope and accessed before its declartaion line
+     hoisting --> variable are move to top of their scope 
   
                                        HOISTED       INITIAL VALUE               SCOPE
      function declaration -------->      yes           actual function         function | block(in strict mode)
