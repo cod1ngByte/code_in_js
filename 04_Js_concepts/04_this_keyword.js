@@ -1,5 +1,5 @@
 /*
-this keyword (a variable how value we can not change) a special type of variable that is created for every 
+this keyword (a variable whose value we can not change) a special type of variable that is created for every 
 execution context (every function)
 
 this keyword is not static, it depends on how the function is called and 
