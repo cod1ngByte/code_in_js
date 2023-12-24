@@ -91,7 +91,13 @@ const newRestaurant = { ...restaurant, founder: "cod1ng byte aka rajiv" };
 console.log(newRestaurant);
 console.log(restaurant);
 
-//------------------------------------> to copy object (deep copy) and merge
+//if we are using any non primitive type as key then it is shallow copy not deep copy
+newRestaurant.categories.push("Indian");
+// categories is updated in both object rest and newrest
+console.log(restaurant);
+console.log(newRestaurant);
+
+//------------------------------------> to copy object (deep copy if no non-primitive is used as key else shallow copy) and merge
 
 const restaurantCopy = { ...restaurant };
 console.log(restaurant.name);
