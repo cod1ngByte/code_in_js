@@ -48,7 +48,7 @@ console.log(str);
 
 //-------------------------------------->Object.values(objectName)
 
-// const values = Object.values(restaurant.openingHours);
+const values = Object.values(restaurant.openingHours);
 // console.log(values);
 // [
 //      { open: 12, close: 22 },
