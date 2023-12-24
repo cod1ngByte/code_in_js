@@ -75,3 +75,9 @@ for (const { open, close } of values) {
 for (const [key, { open, close }] of Object.entries(restaurant.openingHours)) {
     console.log(`on ${key} we open at ${open} and close at ${close}`);
 }
+
+/*
+    Object.entries(objectName) //     [[key,value],[key,value],[key,value],..] and value can be anything even object
+
+    arrayName.entries() // [[index,element],[index,element],[index,element],..] and element can be anything.
+*/
