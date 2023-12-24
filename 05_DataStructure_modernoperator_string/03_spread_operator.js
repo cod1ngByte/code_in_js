@@ -4,7 +4,12 @@ all the characters (in string) all at once.
 
 spread operator works in all iterable( array, string, map, set) and even in object from 2018.
 
-spread operator is used while builind an array, passing function as an argument same for all iterables
+        Object.keys(objectName) -->return array and we know how to use spread op in array
+        Object.values(objectName) -->return array and we know how to use spread op in array
+        Object.entries(objectName) -->return array of array, here also we can use spread op
+                        
+
+spread operator is used while builing an array, passing function as an argument same for all iterables
 */
 const arr = [1, 3, 4];
 
