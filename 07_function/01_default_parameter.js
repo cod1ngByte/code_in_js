@@ -31,3 +31,7 @@ console.log(bookings); // array of object
 
 createBooking("LH1234", undefined, 1000);
 console.log(bookings);
+
+/*
+     javascript only support pass by value (value is copied in function parameter whether it is simple value or ref value)
+*/
