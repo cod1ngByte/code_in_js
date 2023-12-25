@@ -16,3 +16,7 @@ const checkIN = function (flightNum, passenger) {
 checkIN(flight, jsUser);
 console.log(flight); // no change in flight value ,copy of data is passed
 console.log(jsUser); // jsUser and passenger both are pointing to same object in heap so, change in one reflected in both .
+
+/*
+     javascript only support pass by value (value is copied in function parameter whether it is simple value or ref value)
+*/
