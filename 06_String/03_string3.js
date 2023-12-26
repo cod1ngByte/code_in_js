@@ -27,6 +27,7 @@ const newName = ["Mr.", firstName, lastName.toUpperCase()].join(" ");
 console.log(newName);
 
 const capitalizeName = function (name) {
+    //forgot to trim()
     const names = name.split(" ");
     const arr = [];
     for (const word of names) {
