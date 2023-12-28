@@ -60,3 +60,12 @@ movements.forEach(function (movement, index, movements) {
         );
     }
 });
+
+/*
+
+which loop to used ?
+
+for-of loop : break and continue work
+forEach() : break and continue doen't work
+
+*/
