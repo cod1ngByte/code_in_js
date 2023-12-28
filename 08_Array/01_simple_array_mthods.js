@@ -61,3 +61,22 @@ console.log(letters.join(","));
 //pop()
 // shift()
 // includes()
+
+//-----------------------------------------------at(index)
+//return the element at given index
+
+const arr3 = [10, 20, 30, 50];
+
+console.log(arr3[0]); // first element
+console.log(arr3.at(0)); //first element
+//when we are chaining method then use at()
+
+//last element
+
+console.log(arr3[arr3.length - 1]); // 50
+console.log(arr3.at(-1)); // 50
+console.log(arr3.slice(-1)[0]); // slice() method return the last element as an array , and array[0]
+
+// we can even use at() in string
+
+console.log("rajiv".at(-1));
