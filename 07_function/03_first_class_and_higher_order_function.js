@@ -38,7 +38,7 @@
      btnClick.addEventListener('click',greet);
      
      here addEventListener() is a higher order function
-     greet is a call back function, this greet function is executed once btn is clicked note before that
+     greet is a call back function, this greet function is executed each time btn is clicked not before that
 
      
      const  count = function(){ //higher order function
