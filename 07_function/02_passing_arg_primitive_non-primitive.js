@@ -6,7 +6,7 @@ const jsUser = {
 const checkIN = function (flightNum, passenger) {
     flightNum = "LH888";
     passenger.firstName = "Mr. " + passenger.firstName;
-    if (passenger.passenger === 123456789) {
+    if (passenger.passport === 123456789) {
         console.log("checked-in");
     } else {
         console.log("invalid passport");
