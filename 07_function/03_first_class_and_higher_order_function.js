@@ -29,7 +29,7 @@
 */
 
 /*
-     Higher order function are function that receives another functions as argument,
+     Higher order function are function that receives another functions as parameter,
      that returns a new function or both.
 
      const greet = ()=>{
