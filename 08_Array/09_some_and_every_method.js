@@ -14,3 +14,25 @@ console.log(movements.some((mov) => mov > 500));
 
 console.log(movements.some((mov) => mov === -130));
 // we can also do equality check
+
+//-------------------------------------------------------------------------------------------------------------
+//------------------------------------------every()---------------------------------------------------------
+
+//returns true if all the elements in an array satisfy the condition else false
+
+const movements1 = [200, 450, -400, 3000, -650, -130, 70, 1300];
+
+console.log(movements1.every((mov) => mov > 0)); //false
+
+const movements2 = [200, 450, 400, 3000, 650, 130, 70, 1300];
+
+console.log(movements2.every((mov) => mov > 0)); // true
+
+const movements3 = [-200, -450, -400, -3000, -650, -130, -70, -1300];
+console.log(movements3.every((mov) => mov < 0)); // true
+
+// Separate callback
+const deposit = (mov) => mov > 0;
+console.log(movements1.some(deposit));
+console.log(movements1.every(deposit));
+console.log(movements1.filter(deposit));
