@@ -1,5 +1,5 @@
 //sort() method mutate the original array
-//sort() method sort based on the string by defualt (convert the element into string and doest the sorting)
+//sort() method sort based on the string by defualt (convert the element into string and does the sorting)
 
 const owners = ["rajiv", "cod1ng", "Adam", "Martha"];
 
