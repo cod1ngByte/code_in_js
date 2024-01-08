@@ -23,7 +23,7 @@ const eurowings = {
     iataCode: "EW",
     bookings: [],
 };
-const books = lufthansa.book; // function defination refe is stored in book variable so this is normal function exprsn;
+const books = lufthansa.book; // function defination refe is stored in books variable so this is normal function exprsn;
 // console.log(books());
 // book(237, "rajiv"); // this keyword doesn't work in regular function in strict mode
 
