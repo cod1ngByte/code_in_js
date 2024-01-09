@@ -6,8 +6,8 @@ just like array, object literal and function, Date is also non-primitive type
 //4ways to create a date in js, they all use the date constructor but they accept different type of parameter
 
 //1.current date and time
-const now = new Date();
-console.log(now); // current date and time at this very moment -->2024-01-09T09:34:53.441Z (yyyy-mm-ddTHH:mm:ss.sss)
+//const now = new Date();
+//console.log(now); // current date and time at this very moment -->2024-01-09T09:34:53.441Z (yyyy-mm-ddTHH:mm:ss.sss)
 /*
           yyyy - 4 digits for years
           mm - 2 digits for months ( 0 to 11)
@@ -17,8 +17,8 @@ console.log(now); // current date and time at this very moment -->2024-01-09T09:
           ss - 2 digits for second (0 to 59)
           sss - 3 digits for milliseconds ( 0 to 999)       
 */
-console.log(typeof now); // object type
-
+//console.log(typeof now); // object type
+/*
 //-------------------------------------------------------------------------------------------------------
 //2. pass the date as a date sting
 
@@ -63,3 +63,22 @@ console.log(Date.now()); //return in time stamp in number
 //-------------------------------------------------------we can also set the date and time------------------
 future.setFullYear(2040);
 console.log(future);
+
+*/
+//---------------------------------------------------calculating no of days ------------------------------
+
+const date2 = new Date(2037, 10, 19, 15, 23);
+console.log(date2); //object
+
+//convert this object in timestamp by simply converting date object into number
+console.log(Number(date2));
+
+//we can subtract two date(type coercion into number and then subtraction will take place)
+// and we will get timestamp then we will divide by (24*60*60*1000) to get no of days
+
+const calcDaysPassed = function (date1, date2) {
+    return Math.abs(date2 - date1) / (24 * 60 * 60 * 1000);
+};
+
+const days = calcDaysPassed(new Date(2037, 3, 4), new Date(2037, 3, 14));
+console.log(`no of days: ${days}`);
