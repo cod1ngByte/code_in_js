@@ -1,4 +1,4 @@
 # code_in_js
 
 All you need to know to get started with javascript
-documenting everything
+documenting everything what I learn from Jonas(udemy) and from MDN Docs
